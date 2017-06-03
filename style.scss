@@ -356,15 +356,31 @@ footer {
     }
 }
 
-.embed-container {
+.embed-container-56 {
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 56%;
   height: 0;
   overflow: hidden;
   max-width: 100%; 
 }
 
-.embed-container iframe, .embed-container object, .embed-container embed { 
+.embed-container-56 iframe, .embed-container-56 object, .embed-container-56 embed { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.embed-container-100 {
+  position: relative;
+  padding-bottom: 100%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; 
+}
+
+.embed-container-100 iframe, .embed-container-100 object, .embed-container-100 embed { 
   position: absolute;
   top: 0;
   left: 0;
